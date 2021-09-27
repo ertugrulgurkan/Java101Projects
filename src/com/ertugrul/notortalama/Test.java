@@ -23,11 +23,11 @@ public class Test {
         System.out.println("Kimya notunuzu giriniz :");
         int kimya = input.nextInt();
 
-        int toplam = (matematik+fizik+turkce+tarih+muzik+kimya);
+        int toplam = (matematik + fizik + turkce + tarih + muzik + kimya);
         double sonuc = toplam / 6.0;
         System.out.println("Not ortalaması : " + sonuc);
 
-        String gectiKaldi = sonuc >= 60.0 ? "Geçti":"Kaldı";
+        String gectiKaldi = sonuc >= 60.0 ? "Geçti" : "Kaldı";
         System.out.println(gectiKaldi);
     }
 }
